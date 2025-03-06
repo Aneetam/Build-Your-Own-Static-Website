@@ -1,0 +1,41 @@
+.bg-container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fh2lLCzeEeA56HOvBYm6AE8GkUFglnMFoQ&s');
+    color: white;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.para {
+    text-align: left;
+    font-size: 15px;
+}
+
+.sub-head {
+    font-weight: bold;
+}
+
+
+.lastparagraph {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.button {
+    height: 36px;
+    width: 70px;
+    background-color: orange;
+    color: white;
+
+
+}
+
+.todofooter {
+    text-align: center;
+}
