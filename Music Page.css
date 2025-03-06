@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homepage-bg-image-container {
+    background-image: url('https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.homepage-heading {
+    font-display: "Bree Serif";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.homepage-descrpition {
+    font-display: "Bree Serif";
+    color: #ffffff;
+    font-size: 18px;
+
+
+}
+
+.homepage-text-container {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.night-card-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    height: 250px;
+    background-size: cover;
+
+}
+
+.card-container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.night-card-container-heading {
+    color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Bree Serif";
+
+}
+
+.night-card-container-description {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 12px;
+
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #8e97fd;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+
+}
+
+.button-container {
+    text-align: center;
+}
+
+.musicdetails-header-image {
+    height: 40vh;
+    width: 100vh;
+}
+
+.musicdetails-bg-container {
+    background-color: #03174c;
+}
+
+.musicdetails-heading {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+}
+
+.musicdetails-descrption {
+    font-family: "Bree Serif";
+    color: #98a1bd;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+}
+
+.details-image {
+    width: 150px;
+    margin-left: 10px;
+}
