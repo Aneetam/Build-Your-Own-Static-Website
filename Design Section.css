@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+@media(max-width:767px){
+    .main-bg-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image-bg-container{
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png');
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .bulb-image{
+        height: 32%;
+    }
+    .bg-container{
+        background-color: #12022f;
+        width: 100%;
+        padding: 15px;
+    }
+    .main-heading{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .main-card-container{
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 5%;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-image{
+        width: 40px;
+        height:36px
+    }
+    .description-container{
+        margin-left: 18px;
+    }
+    .heading{
+        margin-top: 0px;
+        font-size: 16px;
+        color: #12022f;
+    }
+    .paragraph{
+        color: #7b8794;
+        font-size: 10px;
+    }
+}
+
+
+@media(min-width:767px){
+    .main-bg-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image-bg-container{
+        background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png');
+        background-size: cover;
+        height: 100vh;
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .bulb-image{
+        height: 16%;
+    }
+    .bg-container{
+        background-color: #12022f;
+        width: 60%;
+        padding: 3%;
+        height:100vh;
+    }
+    .main-heading{
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .main-card-container{
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 5%;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-image{
+        width: 60px;
+        height:66px
+    }
+    .description-container{
+        margin-left: 18px;
+    }
+    .heading{
+        margin-top: 0px;
+        font-size: 36px;
+        color: #12022f;
+    }
+    .paragraph{
+        color: #7b8794;
+        font-size: 20px;
+    }
+}
